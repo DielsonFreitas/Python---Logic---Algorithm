@@ -1,0 +1,5 @@
+print ("=====Dobro e Triplo=====")
+
+numero = float (input("Digite um número: "))
+
+print ("O dobro é: ",numero * 2, "\nO triplo é: ", numero * 3)
