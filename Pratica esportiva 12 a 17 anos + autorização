@@ -1,0 +1,12 @@
+print("===== Pratica esportiva 12 a 17 anos + autorização =====")
+
+idade = int(input("Idade: "))
+passaporte = input("Possui autorização ?: ")
+autorizacao = True
+
+if idade >= 12 and idade <= 17 and passaporte == 'sim':
+  autorizacao = True
+  print ("Autorizada a prática desportiva!")
+
+else:
+  print("Não autorizada a prática despotiva!")
