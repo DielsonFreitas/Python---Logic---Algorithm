@@ -1,0 +1,9 @@
+print("===== Está chovendo SIM/NÃO =====\n")
+
+tempo = str (input("Está Chovendo ? SIM/NÃO: ")).lower()
+chovendo = True
+
+if tempo == 'sim' and chovendo == True:
+  print("Não sai sem antes levar o guarda - chuva!")
+else:
+  print("Saia tranquilo de casa !")
