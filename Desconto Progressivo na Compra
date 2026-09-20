@@ -1,0 +1,26 @@
+print("===== Desconto Progressivo na Compra =====\n")
+
+def principal():
+
+  valor_compra = float (input("Valor da compra R$: "))
+
+  valor_final = valor_desconto (valor_compra)
+
+  print("Valor Final com Desconto Calculado R$: ", valor_final)
+
+def valor_desconto(valor_compra):
+
+  if valor_compra >= 100 and valor_compra <= 299:
+    return valor_compra * 0.90
+
+  elif valor_compra >= 300 and valor_compra <= 499:
+    return valor_compra * 0.85
+
+  elif valor_compra >= 500:
+    return valor_compra * 0.80
+
+  else:
+    print("SEM DESCONTO APLICADO!")
+    return valor_compra
+
+principal()
