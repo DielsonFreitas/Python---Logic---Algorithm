@@ -1,0 +1,15 @@
+print(" ==== Confirmação maioridade e ingresso =====")
+
+idade = int (input("Idade: "))
+ingresso = str (input("Possui ingresso sim/não: ")).lower() == "sim"
+
+entrada = False
+
+if idade >= 18 and ingresso == True:
+  entrada = True
+
+if entrada == True:
+  print ("Acesso Liberado!")
+
+else:
+  print("Acesso Negado!")
