@@ -1,0 +1,15 @@
+print(" ===Quem pode Dirigir?=== ")
+
+idade = int(input("Idade: "))
+cnh = input("Possui CNH: ")
+
+#posso utilizar o True/False, para decidir.
+
+if idade >= 18 and cnh == "sim":
+  print("Maior de idade e com CNH!")
+
+elif idade <= 18 and cnh == "nao":
+  print("Menor de idade e sem CNH!")
+
+else:
+  print("Maior de idade e sem CNH!")
