@@ -1,0 +1,5 @@
+print ("=====Antecessor e Sucessor=====")
+
+numero = float (input("Digite um número: "))
+
+print ("O sucessor é: ", numero + 1, "\nO antecessor é: ", numero - 1)
