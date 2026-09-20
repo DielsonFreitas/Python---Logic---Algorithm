@@ -1,0 +1,17 @@
+print("=== Quem pode votar ===")
+
+idade = int(input("Idade: "))
+titulo_eleitor = input("Possui Título de Eleitor: ")
+
+#posso utilizar o True/False, para decidir. exemplo titulo_eleito = True , titulo_eleito = False
+
+if idade >= 16 and titulo_eleitor == "sim":
+  print("Maior de idade e com Titulo de Eleitor!")
+
+
+elif idade <= 16 and titulo_eleitor == "nao":
+  print("Menor de idade e sem Titulo de Eleitor!")
+
+
+else:
+    print("Maior de idade e sem Titulo de Eleitor!")
