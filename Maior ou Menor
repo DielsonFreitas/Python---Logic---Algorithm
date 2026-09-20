@@ -1,0 +1,10 @@
+print("=====Maior ou Menor=====")
+
+a = int (input("Digite um valor: "))
+b = int (input("Digite um valor: "))
+
+if a > b:
+  print("Maior: ", a)
+
+else:
+  print("Maior: ",b)
