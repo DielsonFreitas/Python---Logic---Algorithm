@@ -1,0 +1,7 @@
+print ("==========Divisão==========")
+
+a = float (input("Digite um número: "))
+b = float (input("Digite um número: "))
+
+
+print("A Divisão é: ", a / b)
