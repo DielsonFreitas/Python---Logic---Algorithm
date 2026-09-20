@@ -1,0 +1,13 @@
+print(" === Desconto de 10% === ")
+
+valor = float(input("Digite o valor: "))
+avista = input("Pagamento à vista ?: ")
+
+if avista.lower() == "sim":
+  avista = True
+  desconto = valor * 0.10
+  print("Valor com desconto R$: ", valor - desconto)
+
+else:
+  avista = False
+  print("Valor sem desconto R$: ", valor)
