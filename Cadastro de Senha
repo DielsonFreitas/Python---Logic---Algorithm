@@ -1,0 +1,15 @@
+print ("===== Cadastro de Senha =====")
+
+cadastro = int (input("Digite o senha: "))
+senha = int (input("Digite a senha cadastrada: "))
+
+autenticacao = False
+
+if cadastro == senha:
+  autenticacao = True
+
+if autenticacao == True:
+  print ("Acesso Liberado!")
+
+else:
+  print("Acesso Negado!")
